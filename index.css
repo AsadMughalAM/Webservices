@@ -1,0 +1,295 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(0, 0, 33);
+    color: white;
+    font-family: poppins;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+    background-color: rgb(18, 18, 62);
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    right: 0%;
+    z-index: 100;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0 23px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li a:hover {
+    text-decoration: none;
+    color: lavender;
+    font-size: 1.05rem;
+}
+
+.left {
+    font-size: 1.5rem;
+}
+
+
+#firstSection {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 120px;
+    padding-bottom: 78px;
+
+}
+
+
+#firstSection>div {
+    width: 30%;
+}
+
+#firstSection .leftSection {
+
+    font-size: 1.5rem;
+}
+
+#firstSection .leftSection .buttons {
+    padding: 50px 0;
+}
+
+#firstSection .leftSection .buttons a {
+    text-decoration: none;
+    color: white;
+}
+
+#firstSection .leftSection .btn {
+    padding: 12px;
+    background-color: #000121;
+    color: white;
+    border: 2px solid white;
+    border-radius: 6px;
+    font-size: 20px;
+    cursor: pointer;
+    box-shadow: 0 0 1rem white;
+    transition: 0.3s ease;
+}
+
+#firstSection .leftSection .btn:hover {
+    box-shadow: 0 0 10rem white;
+}
+
+
+
+#firstSection .leftSection p {
+    font-size: 18px
+}
+
+
+#firstSection .rightSection img {
+    width: 90%;
+    box-shadow: 0px 0px 1rem white, 0px 0px 10rem inset;
+    transition: 5s ease-out;
+    border-radius: 100%;
+}
+
+#firstSection .rightSection img:hover {
+    box-shadow: 0 0 5rem white;
+
+}
+
+.purple {
+    color: rgb(170, 107, 228);
+    font-weight: bold;
+    font-size: 50px;
+}
+
+#element {
+    color: rgb(170, 107, 228);
+    font-weight: bold;
+}
+
+
+main hr {
+    background-color: rgb(170, 107, 228);
+    height: 1.2px;
+    border: 0px;
+    margin: 30px 84px;
+}
+
+#secondSection {
+    display: flex;
+    justify-content: space-around;
+    padding: 120px;
+    
+}
+
+
+#secondSection .left {
+    margin: 0px;
+}
+
+#secondSection>div {
+    width: 500px;
+    height: auto;
+}
+
+
+#secondSection .left .about {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-left: 15PX;
+}
+
+#secondSection .left .text {
+    font-size: 18px;
+}
+
+#secondSection .line {
+    width: 150px;
+    margin: 0%;
+    background-color: rgb(170, 107, 228);
+    height: 1.2px;
+    border: 0px;
+}
+
+
+#secondSection .right {
+    margin: 0px;
+
+
+}
+
+
+.skill-chart li {
+    border-bottom: 4px solid #eaeaea;
+    margin-bottom: 30px;
+    list-style: none;
+}
+
+
+
+.skill-title {
+    font-size: 18px;
+    font-family: "Poppins", sans-serif;
+}
+
+.skill-chart li span.skill {
+    display: block;
+    border-bottom: 4px solid rgb(170, 107, 228);
+    padding-bottom: 50px;
+    margin-bottom: -4px;
+}
+
+.skill-chart li span.sixty-percent {
+    width: 60%;
+}
+
+.skill-chart li span.seventy-percent {
+    width: 70%;
+}
+
+.skill-chart li span.eighty-percent {
+    width: 80%;
+}
+
+.skill-chart li span.ninety-percent {
+    width: 90%;
+}
+
+
+.thirdSection {
+    max-width: 80vw;
+    margin: auto;
+    height: 80vh;
+}
+
+
+.thirdSection h1 {
+    font-size: 1.9rem;
+}
+
+.text-grey {
+    color: gray;
+}
+
+.thirdSection .box {
+    background-color: white;
+    height: 2px;
+    width: 76vw;
+    margin: 56px 0;
+    display: flex;
+}
+
+.thirdSection .vertical {
+    background-color: white;
+    height: 93px;
+    width: 1px;
+    margin: 0 100px;
+}
+
+.img-top {
+    width: 23px;
+    top: -32px;
+    left: -9px;
+    position: relative;
+}
+
+.vertical-title {
+    position: relative;
+    top: 75px;
+    width: 100px;
+    font-size: 14px;
+}
+
+.vertical-desc {
+    position: relative;
+    top: 86px;
+    color: gray;
+    width: 150px;
+    font-size: 9px;
+}
+
+
+.footers {
+    display: flex;
+    background-color: #0e0e1a;
+    color: white;
+    height: 233px;
+    padding: 23px 122px;
+    justify-content: space-evenly;
+}
+
+.footers ul {
+    list-style: none;
+}
+
+.footers>div {
+    width: 223px;
+}
+
+
+footer .footer-rights {
+    align-items: center;
+    color: gray;
+    display: flex;
+    justify-content: center;
+    background-color: #0e0e1a;
+    padding: 12px 0;
+}
